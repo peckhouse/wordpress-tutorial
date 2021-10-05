@@ -1,0 +1,22 @@
+$c-main-text: #27baec;
+
+.my-first-page {
+  border: 2px solid red;
+
+  h2 {
+    border-bottom: 2px solid green;
+    text-align: center;
+    margin: 0 0 24px;
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+    color: $c-main-text;
+  }
+
+  .page-description {
+    color: #dee5ec;
+    margin: 0;
+  }
+}
