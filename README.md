@@ -78,6 +78,8 @@ $ sudo vim /etc/apache2/extra/httpd-vhosts.conf
 Add a new domain as follows
 
 ```
+Listen 80
+
 <VirtualHost *:80>
     DocumentRoot    /Users/david/Sites
     DirectoryIndex  testsite.html
